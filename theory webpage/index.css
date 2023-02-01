@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(3, 3, 3, 0.067);
+        /* background-image: */
+        url(img/woman2.png);
+        background-position:0px;
+        
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+h1{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 575%;
+}
+h2{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 120%;
+top: 5%;
+}
+h3{
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif   
+}
+
+div.text{
+position: fixed;
+z-index: 100;
+  top: 35%;
+  left: 50%;
+  width: 150%;
+  color: rgb(71, 66, 66);
+  
+}   
+
+div.fixed{
+ position: fixed;
+ z-index: 100;
+  top: 15%;
+  left: 34%;
+  width: 420px;
+}
+#left {    
+    text-align: left;
+    top: 30%;  
+    }  
+ #right{    
+    text-align: right;  
+    }
+
+    img{  
+        max-width: 40%;
+        opacity: 100%;
+        }  
